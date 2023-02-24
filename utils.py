@@ -12,7 +12,7 @@ UTILS
 import pandas as pd
 import numpy as np
 
-movies = pd.read_csv('~/project/data/ml-latest-small/movies.csv') 
+movies = pd.read_csv('data/movies.csv') 
 
 def movie_to_id(string_titles):
     '''
